@@ -50,7 +50,7 @@ function Main() {
           <p>
             <span className="visual">Visual</span>{" "}
             <span className="pre_number">73</span>
-            <span classNameName="hundred">/100</span>
+            <span className="hundred">/100</span>
           </p>
         </div>
         <button>Continue</button>
