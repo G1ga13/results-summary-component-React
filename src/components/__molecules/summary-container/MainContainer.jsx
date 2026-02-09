@@ -1,5 +1,9 @@
 import "./MainContainer.css";
 import Flash from "../../../assets/images/flash.svg";
+import Brain from "../../../assets/images/brain.svg";
+import Eye from "../../../assets/images/eye.svg";
+import Chat from "../../../assets/images/chat.svg";
+
 function Main() {
   return (
     <div className="container">
@@ -31,7 +35,7 @@ function Main() {
           </p>
         </div>
         <div className="summary_2">
-          <img src="../src/assets/images/brain.svg" alt="brain" />
+          <img src={Brain} alt="brain" />
           <p>
             <span className="memory">Memory</span>{" "}
             <span className="pre_number">92</span>
@@ -39,7 +43,7 @@ function Main() {
           </p>
         </div>
         <div className="summary_3">
-          <img src="../src/assets/images/chat.svg" alt="chat" />
+          <img src={Chat} alt="chat" />
           <p>
             <span className="verbal">Verbal</span>{" "}
             <span className="pre_number">81</span>
@@ -47,7 +51,7 @@ function Main() {
           </p>
         </div>
         <div className="summary_4">
-          <img src="../src/assets/images/eye.svg" alt="eye" />
+          <img src={Eye} alt="eye" />
           <p>
             <span className="visual">Visual</span>{" "}
             <span className="pre_number">73</span>
