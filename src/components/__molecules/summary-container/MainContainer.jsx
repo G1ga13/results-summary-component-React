@@ -1,4 +1,5 @@
 import "./MainContainer.css";
+import Flash from "../../../assets/images/flash.svg";
 function Main() {
   return (
     <div className="container">
@@ -22,7 +23,7 @@ function Main() {
       <div className="summary_box">
         <p className="sub_head">Summary</p>
         <div className="summary_1">
-          <img src="../src/assets/images/flash.svg" alt="flash" />
+          <img src={Flash} alt="flash" />
           <p>
             <span className="reaction">Reaction</span>
             <span className="pre_number">80</span>
